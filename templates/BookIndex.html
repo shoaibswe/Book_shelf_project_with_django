@@ -1,0 +1,36 @@
+{% extends 'master.html'%}
+
+{% block bodycontents%}
+<nav class="navbar navbar-dark bg-primary">
+    <b>Book List</b>
+</nav>
+
+<body>
+    <table class="table table-striped table-dark">
+        <thead>
+            <tr>
+                <td>Book Name</td>
+                <td>Author</td>
+                <td>Price</td>
+                <td>Vesrion</td>
+                <td>Type</td>
+                <td>Year</td>
+            </tr>
+        </thead>
+        <tbody>
+            {%for book in x%}
+            <tr>
+                <td>{{book.book_name}}</td>
+                <td>{{book.book_author}}</td>
+                <td>{{book.book_price}}</td>
+                <td>{{book.book_version}}</td>
+                <td>{{book.booktype}}</td>
+                <td>{{book.publish_year}}</td>
+                <td></td>
+            </tr>
+            {%endfor%}
+        </tbody>
+    </table>
+</body>
+
+{% endblock%}
