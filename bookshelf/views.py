@@ -1,6 +1,5 @@
 from django.shortcuts import render, redirect
-
-from .models import books
+from .models import books,booktype
 
 
 # Create your views here.
@@ -16,3 +15,7 @@ def deletebook(request, id):
     book.delete()
     obj = books.objects.all()
     return redirect("/book/")
+
+def editbook(request,id):
+   # book = books.objects.get(pk=id)
+    pass
