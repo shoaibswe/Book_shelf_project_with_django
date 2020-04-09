@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e943e00-c5cc-478f-85ed-bed1541e6987" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../bookshelf/migrations/0003_auto_20200409_1410.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bookshelf/migrations/0004_auto_20200409_1412.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bookshelf/migrations/0005_auto_20200409_1421.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookshelf/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bookshelf/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookshelf/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bookshelf/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="7e943e00-c5cc-478f-85ed-bed1541e6987" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +92,7 @@
       <workItem from="1586358754837" duration="1267000" />
       <workItem from="1586360176253" duration="340000" />
       <workItem from="1586361553825" duration="822000" />
-      <workItem from="1586412233370" duration="8409000" />
+      <workItem from="1586412233370" duration="8815000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1586362012594</created>
